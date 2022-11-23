@@ -170,4 +170,4 @@ def fwd(message):
 
   bot.send_message(message.chat.id, results)
 
-bot.polling()
+bot.infinity_polling()
